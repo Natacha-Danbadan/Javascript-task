@@ -37,7 +37,7 @@ let row = document.querySelector(".row");
                     <img src="${Data[i].image}" style="width: 35%;" alt="">
                     <h5 class="java">${Data[i].name}</h5>
                     <p class="java2">I have learnt html, css, boostrap and Javascript.</p>
-                    <button onclick="name(${i})" class="btn btn-warning mb-3">Click for more info</button>
+                    <button onclick="nameAlert(${i})" class="alert btn btn-warning mb-3">Click for more info</button>
                   </div>
                 </div>
                 <div class="face face2">
@@ -50,7 +50,7 @@ let row = document.querySelector(".row");
 
    }
 
-   function name(i) {
+   function nameAlert(i) {
         alert(Data[i].name);
    }
    
