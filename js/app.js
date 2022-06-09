@@ -51,6 +51,6 @@ let row = document.querySelector(".row");
    }
 
    function nameAlert(i) {
-        alert(Data[i].name);
+        alert("Hi this is " + " "  + (Data[i].name));
    }
    
